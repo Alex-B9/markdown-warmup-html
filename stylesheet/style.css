@@ -1,0 +1,169 @@
+/*Body*/
+.body{
+    width: 100%;
+    height: 100%;
+    
+    background: radial-gradient(circle, rgba(58,97,128,1) 27%, rgba(0,100,255,1) 49%, rgba(55,0,255,1) 64%, rgba(140,0,255,1) 88%);
+}
+/*Sectin Alex*/
+
+.alex{
+    background-color: brown;
+}
+.alex h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.presentation{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.presentation blockquote{
+    align-items: center;
+}
+blockquote{
+    font-size: 40px;
+}
+.presentation h1{
+    text-align: center;
+}
+.cita{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    width: 35%;
+    height: 35%;
+    line-height: 350%;
+}
+.presimg img{
+    width: 350px;
+    height: 350px;
+    gap: 50px;
+}
+.desc{
+    width: 35%;
+    height: 5%;
+    position: relative;
+    left: 160px;
+    bottom: 165px;
+    font-size: 35px;
+}
+
+/*Section Description*/
+
+.description{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 5%;
+
+    background-color: aqua;
+}
+/*Table*/
+.table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+table{
+    font: normal;
+    text-align: center;
+
+    justify-content: space-around;
+
+    border: medium solid black;
+    width: 65%;
+
+    position: relative;
+    left: 18%;
+}
+tr{
+}
+th,td{
+    border: thin solid blue;
+}
+/* Section Passe-temps*/
+
+.passe{
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+    background-color: bisque;
+}
+.passe h3{
+    position: relative;
+    left: 10%;
+}
+.passe ul{
+    list-style: circle;
+}
+.compte{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    height: 65%;
+    width: 20%;
+    margin-right: 12%;
+
+    font-size: 30px;
+    position: relative;
+    right: 15%;
+}
+
+/* Section Anectode */
+
+.anectode{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    background-color: grey;
+}
+.petite{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    width: 35%;
+    height: 35%;
+
+    gap: 50%;
+
+    font-size: 40px;
+    text-align: center;
+}
+.resume{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    width: 20%;
+    height: 35%;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 7%;
+}
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
