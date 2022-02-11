@@ -1,20 +1,26 @@
 /*Body*/
-.body{
+
+body{
     width: 100%;
     height: 100%;
     
-    background: radial-gradient(circle, rgba(58,97,128,1) 27%, rgba(0,100,255,1) 49%, rgba(55,0,255,1) 64%, rgba(140,0,255,1) 88%);
+    background: rgb(248,249,250);
+    background: linear-gradient(180deg, rgba(248,249,250,1) 10%, rgba(233,236,239,1) 20%, rgba(222,226,230,1) 30%, rgba(206,212,218,1) 40%, rgba(173,181,189,1) 50%, rgba(108,117,125,1) 60%, rgba(73,80,87,1) 70%, rgba(52,58,64,1) 80%, rgba(33,37,41,1) 90%);
+    background-repeat: no-repeat;
 }
 /*Sectin Alex*/
 
 .alex{
-    background-color: brown;
+    height: 800px;
 }
 .alex h1{
     text-align: center;
+    align-items: center;
     font-size: 50px;
-    margin-bottom: 80px;
-    margin-top: 30px;
+    padding-top: 35px;
+
+
+    height: 200px;
 }
 .presentation{
     display: flex;
@@ -37,11 +43,37 @@ blockquote{
     width: 35%;
     height: 35%;
     line-height: 350%;
+    text-align: center;
+}
+.cita:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    box-shadow:2px 2px 10px 10px #212529;
+    -webkit-box-shadow:2px 2px 10px 10x #212529;
+    -moz-box-shadow:2px 2px 10px 10px #212529;
+
+    width: 35%;
+    height: 35%;
+    line-height: 350%;
+    text-align: center;
 }
 .presimg img{
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     gap: 50px;
+}
+.presimg:hover > img{
+    width: 450px;
+    height: 450px;
+    gap: 50px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+
+    box-shadow:2px 2px 10px 10px #212529;
+    -webkit-box-shadow:2px 2px 10px 10x #212529;
+    -moz-box-shadow:2px 2px 10px 10px #212529;
 }
 .desc{
     width: 35%;
@@ -60,7 +92,6 @@ blockquote{
 
     padding: 5%;
 
-    background-color: aqua;
 }
 /*Table*/
 .table{
@@ -88,14 +119,28 @@ th,td{
 }
 /* Section Passe-temps*/
 
+.passet{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.passet:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    box-shadow:2px 2px 10px 10px #C9C9C9;
+    -webkit-box-shadow:2px 2px 10px 10x #C9C9C9;
+    -moz-box-shadow:2px 2px 10px 10px #C9C9C9;
+}
+.passet h3{
+    font-size: 15px;
+}
 .passe{
     display: flex;
     justify-content: space-around;
 
-    margin-bottom: 5%;
-    margin-top: 5%;
 
-    background-color: bisque;
+    height: 350px;
+    align-items: center;
 }
 .passe h3{
     position: relative;
@@ -116,32 +161,82 @@ th,td{
     position: relative;
     right: 15%;
 }
+.compte:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    box-shadow:2px 2px 10px 10px #C9C9C9;
+    -webkit-box-shadow:2px 2px 10px 10x #C9C9C9;
+    -moz-box-shadow:2px 2px 10px 10px #C9C9C9;
+
+    height: 65%;
+    width: 20%;
+    margin-right: 12%;
+
+    font-size: 30px;
+    position: relative;
+    right: 15%;
+}
 
 /* Section Anectode */
 
 .anectode{
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
-    margin-bottom: 5%;
 
-    background-color: grey;
+    height: 600px;
 }
 .petite{
     border: 3px solid black;
     border-radius: 10px;
 
     width: 35%;
-    height: 35%;
+    height: 85%;
 
     gap: 50%;
 
     font-size: 40px;
     text-align: center;
+
+    margin-top: 3%;
+}
+.petite:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(108,117,125);
+
+    box-shadow:2px 2px 10px 10px #C9C9C9;
+    -webkit-box-shadow:2px 2px 10px 10x #C9C9C9;
+    -moz-box-shadow:2px 2px 10px 10px #C9C9C9;
+
+    width: 35%;
+    height: 85%;
+
+    gap: 50%;
+
+    font-size: 40px;
+    text-align: center;
+
+    margin-top: 3%;
 }
 .resume{
     border: 3px solid black;
     border-radius: 10px;
+
+    width: 20%;
+    height: 35%;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 7%;
+}
+.resume:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(108,117,125);
+
+    box-shadow:2px 2px 10px 10px #C9C9C9;
+    -webkit-box-shadow:2px 2px 10px 10x #C9C9C9;
+    -moz-box-shadow:2px 2px 10px 10px #C9C9C9;
 
     width: 20%;
     height: 35%;
@@ -155,15 +250,21 @@ footer{
     display: flex;
     justify-content: space-around;
 
-    margin-top: 5%;
-    margin-bottom: 2%;
-
 }
 .footer{
-    background-color: black;
     color: white;
+    height: 50px;
+
 }
+.footer h4{
+    font-size: 30px;
+}
+
 a{
     text-decoration: none;
     color: aliceblue;
+    font-size: 25px;
+}
+.previous, .moi, .next{
+    margin-top: 1%;
 }
